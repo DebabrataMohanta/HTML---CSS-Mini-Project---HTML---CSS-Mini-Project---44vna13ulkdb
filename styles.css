@@ -1,1 +1,86 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Utility Classes */
+.image-responsive{
+    max-width: 100%;
+}
 
+.Deb-image{
+    background: url(Dimg.jpg) no-repeat;
+    height:  100vh;
+    background-size: cover;
+    position: relative;
+}
+.Deb-wrapper{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+}
+.Deb-wrapper h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.Deb-wrapper span{
+    margin-left: 3rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.form-code{
+    text-align: center;
+}
+.form-code .post-code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+.form-code button {
+    width: 40%;
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    padding: .6rem;
+    margin: 1rem auto 0rem;
+    border: none;
+    border-radius: .3rem;
+}
+.dishes {
+    text-align: center;
+}
+.dishes .dish{
+    margin-top: 0.5rem;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    
+}
+
+/* product item start */
+.product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Product-List-Item {
+    float: left;
+    width: 40%;
+    margin-left: 5rem;
+}
+
+@media screen & (max-width: 700px){
+    .Product-List-Item{
+        width: 100%;
+        float: none;
+    }
+    
+}
